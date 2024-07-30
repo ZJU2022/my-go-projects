@@ -2,7 +2,7 @@ package slice
 
 import "my-go-projects/generic-utils/internal/err"
 
-func add[T any](src []T, element T, index int) ([]T, error) {
+func Add[T any](src []T, element T, index int) ([]T, error) {
 	//在指定索引位置插入一个新元素
 	length := len(src)
 
